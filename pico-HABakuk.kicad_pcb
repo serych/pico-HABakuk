@@ -11167,7 +11167,7 @@
 			(pintype "input")
 			(uuid "b383d5b4-e2d4-47a5-bc22-a37207f36681")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/RF_GPS.3dshapes/ublox_MAX.wrl"
+		(model "${KIPRJMOD}/MAX-8Q-0.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11175,7 +11175,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
