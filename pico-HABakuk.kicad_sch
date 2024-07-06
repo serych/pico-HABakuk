@@ -2837,6 +2837,175 @@
 				)
 			)
 		)
+		(symbol "MAX809:MAX809SEXR+T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MAX809SEXR+T"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT65P210X110-3N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://pdfserv.maximintegrated.com/en/ds/MAX803-MAX810Z.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MAXIM INTEGRATED PRODUCTS - MAX809SEXR+T - MPU SUPERVISOR, 5.5V, SC-70-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "700-MAX809SEXRT"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX809SEXR%2bT?qs=ZlLWvsADX%2Fm854d16RTmdQ%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MAX809SEXR+T"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MAX809SEXR+T_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_RaspberryPi_RP2040:RP2040"
 			(pin_names
 				(offset 1.016)
@@ -5732,12 +5901,6 @@
 		(uuid "04ea0d2c-d31e-4863-9702-0c02ad6a96b9")
 	)
 	(junction
-		(at 157.48 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d69d7df-d30c-41e7-b39a-337c8d87d294")
-	)
-	(junction
 		(at 55.88 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6271,16 +6434,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 165.1) (xy 166.37 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b7d98a0-279d-4ed5-9fc8-3e917606de22")
-	)
-	(wire
-		(pts
 			(xy 207.01 81.28) (xy 210.82 81.28)
 		)
 		(stroke
@@ -6538,16 +6691,6 @@
 			(type default)
 		)
 		(uuid "242ac9f0-225d-4fd2-ab08-049ae05af2f7")
-	)
-	(wire
-		(pts
-			(xy 156.21 167.64) (xy 157.48 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2439d89e-4cae-4e30-8aa8-d6bf774e13ef")
 	)
 	(wire
 		(pts
@@ -7071,6 +7214,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 162.56) (xy 110.49 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5901c9a7-6ceb-458b-87b6-68f0acd2b63c")
+	)
+	(wire
+		(pts
 			(xy 101.6 39.37) (xy 115.57 39.37)
 		)
 		(stroke
@@ -7158,16 +7311,6 @@
 			(type default)
 		)
 		(uuid "6123d737-4e63-43e6-b88c-f03bc7239442")
-	)
-	(wire
-		(pts
-			(xy 157.48 162.56) (xy 157.48 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "642dd26b-1c7d-4bbb-b045-de46e0be4f69")
 	)
 	(wire
 		(pts
@@ -7431,13 +7574,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 167.64) (xy 157.48 165.1)
+			(xy 110.49 165.1) (xy 166.37 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "743b0590-ce97-417e-9386-7608203f5302")
+		(uuid "73b70a7c-a509-432c-8056-5d29408991f8")
 	)
 	(wire
 		(pts
@@ -8041,16 +8184,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 167.64) (xy 148.59 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5771f0d-78db-44d1-a49c-e61984b3564e")
-	)
-	(wire
-		(pts
 			(xy 25.4 52.07) (xy 33.02 52.07)
 		)
 		(stroke
@@ -8171,7 +8304,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 161.29) (xy 146.05 162.56)
+			(xy 77.47 161.29) (xy 77.47 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8741,6 +8874,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 167.64) (xy 114.3 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4dd30b-5915-47bb-b082-077de4b95710")
+	)
+	(wire
+		(pts
 			(xy 287.02 105.41) (xy 289.56 105.41)
 		)
 		(stroke
@@ -8851,16 +8994,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 162.56) (xy 157.48 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f21ba9f8-a9aa-4142-8125-0d7373b4b1bc")
-	)
-	(wire
-		(pts
 			(xy 106.68 43.18) (xy 104.14 43.18)
 		)
 		(stroke
@@ -8891,7 +9024,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 162.56) (xy 148.59 162.56)
+			(xy 77.47 162.56) (xy 80.01 162.56)
 		)
 		(stroke
 			(width 0)
@@ -12509,73 +12642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 152.4 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "236c3a9c-5f7e-49d3-a3e9-96b5ef7212b4")
-		(property "Reference" "R14"
-			(at 158.242 160.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k7"
-			(at 152.4 160.274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.4 164.338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "394f98c4-2a54-4c9e-ae69-1ece1a1368d5")
-		)
-		(pin "1"
-			(uuid "f081d25a-50f0-42f7-9c1f-9f039bd330e6")
-		)
-		(instances
-			(project "pico-HABakuk"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
 		(at 41.91 212.09 0)
 		(unit 1)
@@ -13803,6 +13869,130 @@
 			(project "pico-HABakuk"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MAX809:MAX809SEXR+T")
+		(at 110.49 162.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50892ddb-9f02-49dc-a3bc-14379c5df9e0")
+		(property "Reference" "U7"
+			(at 95.25 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX809STRG"
+			(at 95.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P210X110-3N"
+			(at 83.82 257.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pdfserv.maximintegrated.com/en/ds/MAX803-MAX810Z.pdf"
+			(at 83.82 357.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MAXIM INTEGRATED PRODUCTS - MAX809SEXR+T - MPU SUPERVISOR, 5.5V, SC-70-3"
+			(at 110.49 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 83.82 557.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "700-MAX809SEXRT"
+			(at 83.82 657.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX809SEXR%2bT?qs=ZlLWvsADX%2Fm854d16RTmdQ%3D%3D"
+			(at 83.82 757.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 83.82 857.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAX809SEXR+T"
+			(at 83.82 957.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb6c4da4-3948-4438-921f-e7dac32d3495")
+		)
+		(pin "1"
+			(uuid "7108459e-e655-43a3-92c1-323f0c1739ca")
+		)
+		(pin "3"
+			(uuid "69d287ca-1eed-4f32-a792-fccb6c4dee02")
+		)
+		(instances
+			(project ""
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -15575,73 +15765,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 152.4 167.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c71c6e1-8605-46e8-941d-27287b1b7ec2")
-		(property "Reference" "R15"
-			(at 158.242 169.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k9"
-			(at 152.4 170.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.4 165.862 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 152.4 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cb4fff3a-7a35-470d-806a-41430ec13864")
-		)
-		(pin "1"
-			(uuid "551d2a35-4efe-465c-bcd5-2035f1cf60c3")
-		)
-		(instances
-			(project "pico-HABakuk"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 132.08 257.81 270)
 		(unit 1)
@@ -15710,7 +15833,7 @@
 	(symbol
 		(lib_name "+3V3_2")
 		(lib_id "power:+3V3")
-		(at 146.05 161.29 0)
+		(at 77.47 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15719,7 +15842,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d7b6f06-55e5-4dfa-a523-efd547cfb559")
 		(property "Reference" "#PWR013"
-			(at 146.05 165.1 0)
+			(at 77.47 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15728,7 +15851,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 146.05 156.21 0)
+			(at 77.47 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15736,7 +15859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 161.29 0)
+			(at 77.47 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15745,7 +15868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 161.29 0)
+			(at 77.47 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15754,7 +15877,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 146.05 161.29 0)
+			(at 77.47 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17104,16 +17227,15 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 146.05 167.64 0)
+		(at 114.3 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c0fbe25e-2681-446e-bbf7-238da3d316b5")
 		(property "Reference" "#PWR012"
-			(at 146.05 173.99 0)
+			(at 114.3 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17122,7 +17244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 172.72 0)
+			(at 116.586 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17130,7 +17252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 167.64 0)
+			(at 114.3 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17139,7 +17261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 167.64 0)
+			(at 114.3 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17148,7 +17270,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 167.64 0)
+			(at 114.3 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18189,7 +18311,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4e19bfb-3ecc-49e8-8319-7d1edd940a74")
 		(property "Reference" "#PWR0121"
 			(at 125.73 166.37 0)
@@ -18201,7 +18322,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 165.1 0)
+			(at 123.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
