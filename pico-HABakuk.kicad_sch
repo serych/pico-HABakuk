@@ -12061,7 +12061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "_moje_footprints:STMITE"
+		(property "Footprint" "SamacSys_Parts:SMM4F15ATR"
 			(at 137.16 55.88 0)
 			(effects
 				(font
@@ -13901,7 +13901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-3N"
+		(property "Footprint" "SamacSys_Parts:SOT65P210X110-3N"
 			(at 83.82 257.48 0)
 			(effects
 				(font
