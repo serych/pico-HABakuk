@@ -18,9 +18,9 @@ The primary software intended for this board is [pico-WSPRer](https://github.com
     - debug interface of RP2040, 
     - RESET and USB_BOOT buttons
 ## Images
-![3D model - top side](https://https://github.com/serych/pico-HABakuk/blob/master/img/board3D-top.jpg?raw=true)
-![3D model - bottom side](https://https://github.com/serych/pico-HABakuk/blob/master/img/board3D-bot.jpg?raw=true)
-![board dimensions](https://https://github.com/serych/pico-HABakuk/blob/master/img/boar-dim.JPG?raw=true)
+![3D model - top side](https://github.com/serych/pico-HABakuk/blob/master/img/board3D-top.jpg?raw=true)
+![3D model - bottom side](https://github.com/serych/pico-HABakuk/blob/master/img/board3D-bot.jpg?raw=true)
+![board dimensions](https://github.com/serych/pico-HABakuk/blob/master/img/board-dim.JPG?raw=true)
 
 ### This project is licensed under the terms of the CERN Open Hardware Licence Version 2 - Weakly Reciprocal.
 
