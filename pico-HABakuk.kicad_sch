@@ -15205,7 +15205,7 @@
 				)
 			)
 		)
-		(property "Value" "GPS+Glonass"
+		(property "Value" "GPS opt"
 			(at 316.23 129.54 0)
 			(effects
 				(font
@@ -19030,7 +19030,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Solar_voltage"
+		(property "Value" "sol adc2"
 			(at 43.18 31.7499 90)
 			(effects
 				(font
